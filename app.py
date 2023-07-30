@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from langchain import LangChain
 
 # Function to search the web and scrape results
 def search_and_scrape(url):
@@ -9,9 +10,13 @@ def search_and_scrape(url):
 
 # Function to create Langchain agent
 def create_langchain_agent(data):
-    # Code to create Langchain agent goes here
-    pass
+    # Create a LangChain agent
+    agent = LangChain()
+    # Use the agent to process the data
+    result = agent.process(data)
+    return result
 
 # Example usage
 data = search_and_scrape('https://www.example.com')
-create_langchain_agent(data)
+result = create_langchain_agent(data)
+print(result)
