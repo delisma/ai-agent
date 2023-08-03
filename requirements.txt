@@ -4,4 +4,23 @@ python-dotenv
 pydantic==1.*
 langchain
 bs4
-tiktoken
+tiktokenusage: aider [-h] [--openai-api-key OPENAI_API_KEY] [--model MODEL] [-3]
+             [--openai-api-base OPENAI_API_BASE]
+             [--openai-api-type OPENAI_API_TYPE]
+             [--openai-api-version OPENAI_API_VERSION]
+             [--openai-api-deployment-id OPENAI_API_DEPLOYMENT_ID]
+             [--openai-api-engine OPENAI_API_ENGINE]
+             [--edit-format EDIT_FORMAT] [--map-tokens MAP_TOKENS]
+             [--input-history-file INPUT_HISTORY_FILE]
+             [--chat-history-file CHAT_HISTORY_FILE] [--dark-mode]
+             [--light-mode] [--pretty] [--no-pretty] [--no-stream]
+             [--user-input-color USER_INPUT_COLOR]
+             [--tool-output-color TOOL_OUTPUT_COLOR]
+             [--tool-error-color TOOL_ERROR_COLOR]
+             [--assistant-output-color ASSISTANT_OUTPUT_COLOR]
+             [--code-theme CODE_THEME] [--show-diffs] [--no-git]
+             [--auto-commits] [--no-auto-commits] [--dirty-commits]
+             [--no-dirty-commits] [--dry-run] [--version] [--apply FILE]
+             [--yes] [-v] [--show-repo-map] [--message COMMAND]
+             [-c CONFIG_FILE]
+             [FILE ...]
